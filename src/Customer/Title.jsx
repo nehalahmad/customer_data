@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { CUSTOMER_LIST } from "../config/appConstants";
 
 const Title = props => (
-  <div>
+  <div className="title-container">
     <h1>{CUSTOMER_LIST}</h1>
-    <Link to="/AddCustomer">+</Link>
+    <Link className="add-customer" to="/AddCustomer">
+      +
+    </Link>
   </div>
 );
 

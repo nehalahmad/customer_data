@@ -6,6 +6,8 @@ import AddCustomer from "./Customer/AddCustomer";
 import UpdateCustomer from "./Customer/UpdateCustomer";
 import ShowCustomer from "./Customer/ShowCustomer";
 
+import "./assets/css/styles.css";
+
 function App() {
   return (
     <Fragment>

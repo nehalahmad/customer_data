@@ -7,8 +7,8 @@ const CustomerListHeader = props => {
       <Col className="table-header">Name</Col>
       <Col className="table-header">Type</Col>
       <Col className="table-header">Description</Col>
-      <Col className="table-header">Charges</Col>
-      <Col className="table-header">Action</Col>
+      <Col className="table-header text-center">Charges</Col>
+      <Col className="table-header text-center">Action</Col>
     </Row>
   );
 };
